@@ -1,3 +1,40 @@
-h1 {
-  color: salmon;
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  background: lightgrey;
+  width: 75vw;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.city {
+  position: relative;
+  width: 30%;
+  margin: 1rem;
+}
+img {
+  width: 275px;
+  height: 300px;
+}
+.location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+button {
+  border: 1px solid grey;
+  padding: .5rem 3rem .5rem 3rem;
+  color: black;
 }
